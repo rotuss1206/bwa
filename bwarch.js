@@ -279,8 +279,10 @@ window.rch_nws[hostkey].Registry = function RchRegistry(client, startConnection)
     
     Lampa.Storage.set('clarification_search',all);
   }
-  
-  function clari…startPlugin() {
+
+  }
+
+  function startPlugin() {
     window.bwarch_plugin = true;
     var manifst = {
       type: 'video',
